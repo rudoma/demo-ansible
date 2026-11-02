@@ -1,6 +1,6 @@
 ---
 - name: Update Ubuntu Server
-  hosts: crm_dev
+  hosts: crm_camel
   become: yes
   tasks:
     - name: Update apt repo and cache
